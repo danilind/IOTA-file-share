@@ -2,7 +2,7 @@
 
 
 ## Message protocol(message is 2,187 trytes)
-- 1st tryte: meta encoding typ
+- 1st tryte: meta encoding type
 - Remaining 2,186 trytes: remaining message formated with the meta encoding type
 
 ## Encoding types (can fill 2,186 trytes)
