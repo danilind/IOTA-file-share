@@ -24,12 +24,31 @@
 </head>
 
 <body>
-<h1>Upload</h1>
+<h1>LedgerStorage</h1>
+<ul>
+<li>By using any part of this program you agree to the Terms of Service at the bottom of this page.</li>
+<li>All files you upload here will be uploaded on the public IOTA ledger without encryption, by uploading you aknowledge this.</li>
+<h2>Upload</h2>
 <input type='file' onchange='openFile(event)'>
 <div id="file_upload_msg"></div>
 
-<h1>Download</h1>
+<h2>Download</h2>
 <input type='text' onchange='download(this)'>
+    
+<h2>Save seed</h2>
+<input type="text" name="Insert seed here"><button onclick="saveSeed()" type="button">Save</button>
+   
+<h2>Save node URI</h2>
+<input type="text" name="Insert node uri here"><button onclick="saveSeed()" type="button">Save</button>
 </body>
 
+<h2>Terms of service</h2>
+<p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+        ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
 </html>

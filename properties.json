@@ -1,0 +1,4 @@
+{
+  "nodeUri": "http://<nodeIp>:<nodePort>",
+  "seed": "<seed>"
+}
