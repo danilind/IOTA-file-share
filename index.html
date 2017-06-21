@@ -2,7 +2,25 @@
 <html>
 <head>
     <title>IOTA file share</title>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/core.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="assets/javascript/vendor/iota.min.js"></script>
     <script src="assets/javascript/file_share.js"></script>
+    <script src="assets/javascript/utils.js"></script>
+    <script src="assets/javascript/iota.js"></script>
+    <script src="assets/javascript/iota.wrapper.js"></script>
+    <script src="assets/javascript/converter.js"></script>
+
+    <script>
+        $( document ).ready(function(){
+            try {
+                loadGlobal();
+            }catch (err){
+                alert('Error: ' + err);
+            }
+        });
+    </script>
 </head>
 
 <body>
